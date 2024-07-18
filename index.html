@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Customer Data</title>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1 class="pb-3">
+        Customers Transactions
+        </h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="bg-primary text-white ">Name</th>
+                    <th class="bg-primary text-white">Date</th>
+                    <th class="bg-primary text-white">Amount</th>
+                </tr>
+            </thead>
+            <tbody id="customer-table-body">
+            </tbody>
+        </table>
+        <canvas id="transaction-chart"></canvas>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html> 
